@@ -14819,6 +14819,15 @@ sio:SIO_001388 rdf:type owl:Class ;
                rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
                rdfs:label "sequence variation notation" .
 
+###  http://semanticscience.org/resource/SIO_
+sio:SIO_ rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_001385 ;
+               dc:identifier "SIO_" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "amino acid sequence variation notation" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/>
+
+
 
 ###  http://semanticscience.org/resource/SIO_001389
 sio:SIO_001389 rdf:type owl:Class ;
