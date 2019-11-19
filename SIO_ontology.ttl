@@ -14819,15 +14819,101 @@ sio:SIO_001388 rdf:type owl:Class ;
                rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
                rdfs:label "sequence variation notation" .
 
-###  http://semanticscience.org/resource/SIO_
-sio:SIO_ rdf:type owl:Class ;
-               rdfs:subClassOf sio:SIO_001385 ;
-               dc:identifier "SIO_" ;
+###  http://semanticscience.org/resource/SIO_011132
+sio:SIO_011132 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_001166 ;
+               dc:identifier "SIO_011132" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "variation annotation" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/>
+
+###  http://semanticscience.org/resource/SIO_011133
+sio:SIO_011133 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_011132 ;
+               dc:identifier "SIO_011133" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "gDNA variation notation" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/>       
+
+###  http://semanticscience.org/resource/SIO_011134
+sio:SIO_011134 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_011132 ;
+               dc:identifier "SIO_011134" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "cDNA variation notation" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> 
+
+###  http://semanticscience.org/resource/SIO_011135
+sio:SIO_011135 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_011132 ;
+               dc:identifier "SIO_011135" ;
                rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
                rdfs:label "amino acid sequence variation notation" .
                dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/>
 
+###  http://semanticscience.org/resource/SIO_011136
+sio:SIO_011136 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_00093 ;
+               dc:identifier "SIO_011136" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "chemical-disease association linked with genomic alteration" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> 
 
+###  http://semanticscience.org/resource/SIO_011137
+sio:SIO_011137 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_000475 ;
+               dc:identifier "SIO_011137" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "variation" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> 
+
+###  http://semanticscience.org/resource/SIO_011138
+sio:SIO_011138 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_011137 ;
+               dc:identifier "SIO_011138" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "DNA chain variation" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> 
+
+###  http://semanticscience.org/resource/SIO_011139
+sio:SIO_011139 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_011137 ;
+               dc:identifier "SIO_011139" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "amino acid chain variation" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> 
+
+###  http://semanticscience.org/resource/SIO_011140
+sio:SIO_011140 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_000789 ;
+               dc:identifier "SIO_011140" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "coding sequence position" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> 
+
+###  http://semanticscience.org/resource/SIO_011141
+sio:SIO_011141 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_000789 ;
+               dc:identifier "SIO_011141" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "deoxyribonucleic acid sequence position" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/>               
+
+###  http://semanticscience.org/resource/SIO_011142
+sio:SIO_011142 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_000789 ;
+               dc:identifier "SIO_011142" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "ribonucleic acid sequence position" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> 
+
+###  http://semanticscience.org/resource/SIO_011141
+sio:SIO_011143 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_000789 ;
+               dc:identifier "SIO_011143" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "amino acid sequence position" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> 
 
 ###  http://semanticscience.org/resource/SIO_001389
 sio:SIO_001389 rdf:type owl:Class ;
