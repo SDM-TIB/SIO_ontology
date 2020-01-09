@@ -14853,7 +14853,7 @@ sio:SIO_011135 rdf:type owl:Class ;
 
 ###  http://semanticscience.org/resource/SIO_011136
 sio:SIO_011136 rdf:type owl:Class ;
-               rdfs:subClassOf sio:SIO_00093 ;
+               rdfs:subClassOf sio:SIO_000993 ;
                dc:identifier "SIO_011136" ;
                rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
                rdfs:label "chemical-disease association linked with genomic alteration" .
@@ -14907,13 +14907,21 @@ sio:SIO_011142 rdf:type owl:Class ;
                rdfs:label "ribonucleic acid sequence position" .
                dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> 
 
-###  http://semanticscience.org/resource/SIO_011141
+###  http://semanticscience.org/resource/SIO_011143
 sio:SIO_011143 rdf:type owl:Class ;
                rdfs:subClassOf sio:SIO_000789 ;
                dc:identifier "SIO_011143" ;
                rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
                rdfs:label "amino acid sequence position" .
                dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/> 
+
+###  http://semanticscience.org/resource/SIO_011144
+sio:SIO_011144 rdf:type owl:Class ;
+               rdfs:subClassOf sio:SIO_001257 ;
+               dc:identifier "SIO_011144" ;
+               rdfs:isDefinedBy <http://semanticscience.org/ontology/sio.owl> ;
+               rdfs:label "chemical-gene association linked with genomic alteration" .
+               dc:creator <https://www.tib.eu/en/research-development/scientific-data-management/staff/samaneh-jozashoori/>
 
 ###  http://semanticscience.org/resource/SIO_001389
 sio:SIO_001389 rdf:type owl:Class ;
